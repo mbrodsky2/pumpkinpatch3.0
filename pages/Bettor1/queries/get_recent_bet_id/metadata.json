@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_earnings",
+    "name": "get_recent_bet_id",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/earnings/<account_NO>"
+        "url": "web:4000/b/recentbetid"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Bettor2",
+    "pageId": "Bettor1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,12 +42,12 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Bettor2_get_earnings",
+  "id": "Bettor1_get_recent_bet_id",
   "deleted": false,
-  "gitSyncId": "64403928ec0ea46211936b1b_644051edec0ea46211936b3d"
+  "gitSyncId": "644068af9a04f011ac6ebb40_6440cb449a04f011ac6ebba0"
 }

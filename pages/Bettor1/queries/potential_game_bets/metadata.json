@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_Team_Stats",
+    "name": "potential_game_bets",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/teamstats/"
+        "url": "web:4000/b/gameid/{{date.selectedDate}}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Bettor2",
+    "pageId": "Bettor1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,17 +37,23 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "datasourceUrl"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
-    "userSetOnLoad": false,
+    "jsonPathKeys": [
+      "date.selectedDate"
+    ],
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Bettor2_Get_Team_Stats",
+  "id": "Bettor1_potential_game_bets",
   "deleted": false,
-  "gitSyncId": "64403928ec0ea46211936b1b_64404ef1ec0ea46211936b35"
+  "gitSyncId": "644068af9a04f011ac6ebb40_644083aa9a04f011ac6ebb60"
 }

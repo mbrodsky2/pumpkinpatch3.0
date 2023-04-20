@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 990,
+          "bottomRow": 1090,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
@@ -30,7 +30,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 11,
+              "topRow": 39,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -62,7 +62,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 5,
+              "leftColumn": 1,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -96,25 +96,27 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681941924257,
+              "columnUpdatedAt": 1681960849898,
+              "originalBottomRow": 90,
               "defaultSelectedRowIndices": [
                 0
               ],
               "widgetName": "Top_pitchers",
               "defaultPageSize": 0,
               "columnOrder": [
-                "cur_team",
-                "era",
                 "p_fName",
-                "p_lName"
+                "p_lName",
+                "era",
+                "cur_team"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 40,
+              "bottomRow": 68,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
-                "status": 85
+                "status": 85,
+                "era": 93
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -242,7 +244,7 @@
               "key": "h8geaexznn",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 53,
+              "rightColumn": 63,
               "textSize": "0.875rem",
               "widgetId": "lqdnarws37",
               "minWidth": 450,
@@ -254,6 +256,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
+              "originalTopRow": 61,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -266,8 +269,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 4,
-              "bottomRow": 8,
+              "topRow": 34,
+              "bottomRow": 38,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -276,7 +279,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 13.234375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 7,
+              "leftColumn": 18,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -290,10 +293,10 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Top 5 Pitchers by ERA",
+              "text": "Top 5 Pitchers in the League by ERA",
               "key": "9vmxa6tmim",
               "isDeprecated": false,
-              "rightColumn": 23,
+              "rightColumn": 43,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "hvtihk5k9e",
@@ -306,9 +309,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 56,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
+              "originalBottomRow": 60,
+              "fontSize": "1.25rem",
               "minDynamicHeight": 4
             },
             {
@@ -316,33 +321,12 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 69,
+              "topRow": 88,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
               "animateLoading": true,
               "dynamicBindingPathList": [
-                {
-                  "key": "primaryColumns.step.computedValue"
-                },
-                {
-                  "key": "primaryColumns.task.computedValue"
-                },
-                {
-                  "key": "primaryColumns.status.computedValue"
-                },
-                {
-                  "key": "primaryColumns.action.computedValue"
-                },
-                {
-                  "key": "primaryColumns.action.buttonColor"
-                },
-                {
-                  "key": "primaryColumns.action.borderRadius"
-                },
-                {
-                  "key": "primaryColumns.action.boxShadow"
-                },
                 {
                   "key": "accentColor"
                 },
@@ -354,10 +338,25 @@
                 },
                 {
                   "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.injury_date.computedValue"
+                },
+                {
+                  "key": "primaryColumns.p_fName.computedValue"
+                },
+                {
+                  "key": "primaryColumns.p_lName.computedValue"
+                },
+                {
+                  "key": "primaryColumns.title.computedValue"
+                },
+                {
+                  "key": "primaryColumns.upd_body.computedValue"
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 5,
+              "leftColumn": 1,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -391,25 +390,31 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681925637162,
+              "columnUpdatedAt": 1681960568806,
+              "originalBottomRow": 131,
               "defaultSelectedRowIndices": [
                 0
               ],
               "widgetName": "injury_history",
               "defaultPageSize": 0,
               "columnOrder": [
-                "step",
-                "task",
-                "status",
-                "action"
+                "p_fName",
+                "p_lName",
+                "title",
+                "injury_date",
+                "upd_body"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 99,
+              "bottomRow": 109,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
-                "status": 85
+                "status": 85,
+                "injury_date": 130,
+                "p_fName": 120,
+                "p_lName": 110,
+                "title": 119
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -417,104 +422,157 @@
               "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "step": {
+                "injury_date": {
+                  "allowCellWrapping": false,
                   "index": 0,
                   "width": 150,
-                  "id": "step",
-                  "originalId": "step",
-                  "alias": "step",
+                  "originalId": "injury_date",
+                  "id": "injury_date",
+                  "alias": "injury_date",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "text",
+                  "columnType": "date",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "step",
-                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"step\"]))}}",
-                  "validation": {},
+                  "label": "Injury Date",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"injury_date\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": "",
+                  "outputFormat": "YYYY-MM-DD"
                 },
-                "task": {
+                "p_fName": {
+                  "allowCellWrapping": false,
                   "index": 1,
                   "width": 150,
-                  "id": "task",
-                  "originalId": "task",
-                  "alias": "task",
+                  "originalId": "p_fName",
+                  "id": "p_fName",
+                  "alias": "p_fName",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "task",
-                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"task\"]))}}",
-                  "validation": {},
+                  "label": "First Name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"p_fName\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": ""
                 },
-                "status": {
+                "p_lName": {
+                  "allowCellWrapping": false,
                   "index": 2,
                   "width": 150,
-                  "id": "status",
-                  "originalId": "status",
-                  "alias": "status",
+                  "originalId": "p_lName",
+                  "id": "p_lName",
+                  "alias": "p_lName",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
+                  "isDisabled": false,
                   "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "status",
-                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
-                  "validation": {},
+                  "label": "Last Name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"p_lName\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF"
+                  "validation": {},
+                  "cellBackground": ""
                 },
-                "action": {
+                "title": {
+                  "allowCellWrapping": false,
                   "index": 3,
                   "width": 150,
-                  "id": "action",
-                  "originalId": "action",
-                  "alias": "action",
+                  "originalId": "title",
+                  "id": "title",
+                  "alias": "title",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "button",
+                  "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
+                  "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
-                  "isCellVisible": true,
-                  "isCellEditable": false,
                   "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
                   "isDerived": false,
-                  "label": "action",
-                  "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
-                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
-                  "validation": {},
+                  "label": "Injury Type",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
                   "sticky": "",
-                  "labelColor": "#FFFFFF",
-                  "buttonColor": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
-                  "borderRadius": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "boxShadow": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "upd_body": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "upd_body",
+                  "id": "upd_body",
+                  "alias": "upd_body",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Description",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{injury_history.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"upd_body\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
                 }
               },
               "key": "h8geaexznn",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 54,
+              "rightColumn": 63,
               "textSize": "0.875rem",
               "widgetId": "qnr62t5v3l",
               "minWidth": 450,
@@ -526,6 +584,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
+              "originalTopRow": 110,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -541,8 +600,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 62,
-              "bottomRow": 66,
+              "topRow": 83,
+              "bottomRow": 87,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -553,7 +612,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 21,
+              "leftColumn": 23,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -566,7 +625,7 @@
               "isDisabled": false,
               "key": "gph1xnq7ce",
               "isDeprecated": false,
-              "rightColumn": 37,
+              "rightColumn": 39,
               "isDefaultClickDisabled": true,
               "widgetId": "fmbzg1vir0",
               "minWidth": 120,
@@ -577,8 +636,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
+              "originalTopRow": 105,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 109,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -593,8 +654,8 @@
                 "number",
                 "textarea"
               ],
-              "topRow": 51,
-              "bottomRow": 58,
+              "topRow": 75,
+              "bottomRow": 82,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "autoFocus": false,
@@ -604,7 +665,7 @@
               "parentColumnSpace": 13.234375,
               "dynamicTriggerPathList": [],
               "resetOnSubmit": true,
-              "leftColumn": 19,
+              "leftColumn": 22,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -621,7 +682,7 @@
               "labelTextSize": "0.875rem",
               "isRequired": false,
               "isDeprecated": false,
-              "rightColumn": 39,
+              "rightColumn": 42,
               "dynamicHeight": "FIXED",
               "widgetId": "1ldr6rtccw",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -635,10 +696,560 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 97,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "originalBottomRow": 104,
               "iconAlign": "left",
               "defaultText": "",
+              "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "Text3",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 70,
+              "bottomRow": 74,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 13.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 20,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "Search a Player's Injury History",
+              "key": "5ct5gbj4ml",
+              "isDeprecated": false,
+              "rightColumn": 45,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "rhaeh9yvcd",
+              "minWidth": 450,
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 92,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 96,
+              "fontSize": "1.25rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "Text4",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 1,
+              "bottomRow": 6,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 13.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 23,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "Advanced Stats",
+              "key": "5ct5gbj4ml",
+              "isDeprecated": false,
+              "rightColumn": 43,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "p15at61r7p",
+              "minWidth": 450,
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 1,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 6,
+              "fontSize": "1.875rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "Divider1",
+              "thickness": 2,
+              "displayName": "Divider",
+              "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
+              "searchTags": [
+                "line"
+              ],
+              "topRow": 6,
+              "bottomRow": 10,
+              "parentRowSpace": 10,
+              "type": "DIVIDER_WIDGET",
+              "capType": "nc",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 13.8125,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "key": "sx8vfj6lrm",
+              "dividerColor": "#858282",
+              "orientation": "horizontal",
+              "strokeStyle": "solid",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "f3ipwx4cte",
+              "capSide": 0,
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 6,
+              "originalBottomRow": 10
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+              "topRow": 19,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.bb_percent.computedValue"
+                },
+                {
+                  "key": "primaryColumns.iso.computedValue"
+                },
+                {
+                  "key": "primaryColumns.run_diff.computedValue"
+                },
+                {
+                  "key": "primaryColumns.slugg_percent.computedValue"
+                },
+                {
+                  "key": "primaryColumns.spd.computedValue"
+                },
+                {
+                  "key": "primaryColumns.team_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.wgdp.computedValue"
+                }
+              ],
+              "needsHeightForContent": true,
+              "leftColumn": 1,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1681961545142,
+              "originalBottomRow": 55,
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "widgetName": "advanced_stats_team",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "team_name",
+                "bb_percent",
+                "iso",
+                "run_diff",
+                "slugg_percent",
+                "spd",
+                "wgdp"
+              ],
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "bottomRow": 32,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 70,
+                "status": 85,
+                "team_name": 167,
+                "iso": 79,
+                "run_diff": 144,
+                "slugg_percent": 122,
+                "bb_percent": 110,
+                "spd": 88
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "parentColumnSpace": 13.8125,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "bb_percent": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "bb_percent",
+                  "id": "bb_percent",
+                  "alias": "bb_percent",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "BB %",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{advanced_stats_team.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"bb_percent\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "iso": {
+                  "allowCellWrapping": false,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "iso",
+                  "id": "iso",
+                  "alias": "iso",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "ISO",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{advanced_stats_team.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"iso\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "run_diff": {
+                  "allowCellWrapping": false,
+                  "index": 2,
+                  "width": 150,
+                  "originalId": "run_diff",
+                  "id": "run_diff",
+                  "alias": "run_diff",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Run Differental",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{advanced_stats_team.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"run_diff\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "slugg_percent": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "slugg_percent",
+                  "id": "slugg_percent",
+                  "alias": "slugg_percent",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Slugger %",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{advanced_stats_team.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"slugg_percent\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "spd": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "spd",
+                  "id": "spd",
+                  "alias": "spd",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "SPD",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{advanced_stats_team.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"spd\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "team_name": {
+                  "allowCellWrapping": false,
+                  "index": 5,
+                  "width": 150,
+                  "originalId": "team_name",
+                  "id": "team_name",
+                  "alias": "team_name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Team",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{advanced_stats_team.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"team_name\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "wgdp": {
+                  "allowCellWrapping": false,
+                  "index": 6,
+                  "width": 150,
+                  "originalId": "wgdp",
+                  "id": "wgdp",
+                  "alias": "wgdp",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "WGDP",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{advanced_stats_team.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"wgdp\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                }
+              },
+              "key": "dt06pm4e6r",
+              "canFreezeColumn": true,
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "textSize": "0.875rem",
+              "widgetId": "9v6dmw5boa",
+              "minWidth": 450,
+              "tableData": "{{get_advanced_stats.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 18,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "team_ID",
+              "isFilterable": true,
+              "displayName": "Select",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Select a Team:",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 10,
+              "bottomRow": 17,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SELECT_WIDGET",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "GREEN",
+              "animateLoading": true,
+              "parentColumnSpace": 13.8125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                }
+              ],
+              "leftColumn": 22,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "[\n  {\n    \"label\": \"Atlanta Braves\", \"value\": \"1\"},\n  {\"label\": \"Miami Marlins\",\"value\": \"2\"},\n  {\"label\": \"New York Mets\",\"value\": \"3\"},\n\t{\"label\": \"Philadelphia Phillies\",\"value\": \"4\"},\n {\"label\": \"Washington Nationals\",\"value\": \"5\"}, {\"label\": \"Chicago Cubs\",\n    \"value\": \"6\"},\n\t{\"label\": \"Cincinnati Reds\",\"value\": \"7\"},\n\t{\"label\": \"Milwaukee Brewers\",\"value\": \"8\"},\n {\"label\": \"Pittsburgh Pirates\",\"value\": \"9\"},\n\t{\"label\": \"St. Louis Cardinals\",\"value\": \"10\"},\n\t{\"label\": \"Arizona Diamondbacks\",\"value\": \"11\"\n}, {\"label\": \"Colorado Rockies\", \"value\": \"12\"},\n\t{\"label\": \"Los Angeles Dodgers\",\"value\": \"13\"},\n\t{\"label\": \"San Diego Padres\",\"value\": \"14\"},\n\t{\"label\": \"San Francisco Giants\", \"value\": \"15\"},\t\t\t{\"label\": \"Baltimore Orioles\", \"value\": \"16\"},\n {\"label\": \"Boston Red Sox\",\"value\": \"17\"},\n {\"label\": \"New York Yankees\",\"value\": \"18\"},\n\t{\"label\": \"Tampa Bay Rays\",\"value\": \"19\"},\n {\"label\": \"Toronto Blue Jays\",\"value\": \"20\"},\n\t{\"label\": \"Chicago White Sox\",\"value\": \"21\"},\n\t{\"label\": \"Cleveland Guardians\",\"value\": \"22\"},\n\t{\"label\": \"Detroit Tigers\",\"value\": \"23\"},\n\t{\"label\": \"Kansas City Royals\",\"value\": \"24\"},\n\t{\"label\": \"Minnesota Twins\",\"value\": \"25\"},\n\t{\"label\": \"Houston Astros\",\"value\": \"26\"},\n {\"label\": \"Los Angeles Angels\", \"value\": \"27\"},\n\t{\"label\": \"Oakland Athletics\", \"value\": \"28\"},\n\t{\"label\": \"Seattle Mariners\",\"value\": \"29\"},\n\t{\"label\": \"Texas Rangers\",\"value\": \"30\"\n  }\n]",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "qkr3qtflmd",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 42,
+              "dynamicHeight": "FIXED",
+              "widgetId": "fxvgr94afj",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 10,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 17,
+              "onOptionChange": "{{get_advanced_stats.run()}}",
               "minDynamicHeight": 4
             }
           ]
