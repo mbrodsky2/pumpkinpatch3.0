@@ -599,7 +599,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Update Most Recent Bet Outcome:\n",
+                      "text": "Update Most Recent Bet Slip:\n",
                       "key": "1rj5jxdw3w",
                       "isDeprecated": false,
                       "rightColumn": 35,
@@ -862,7 +862,7 @@
                       "parentColumnSpace": 10.1669921875,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 34,
+                      "leftColumn": 31,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -879,7 +879,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 58,
                       "dynamicHeight": "FIXED",
                       "widgetId": "nfo5bkhsgh",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1038,7 +1038,7 @@
                 "task": 245,
                 "step": 70,
                 "status": 85,
-                "lName": 173,
+                "lName": 227,
                 "username": 157
               },
               "parentRowSpace": 10,
@@ -2260,6 +2260,7 @@
               "topRow": 187,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
+              "topRowBeforeCollapse": 187,
               "inlineEditingSaveOption": "ROW_LEVEL",
               "animateLoading": true,
               "dynamicBindingPathList": [
@@ -2284,6 +2285,7 @@
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "bottomRowBeforeCollapse": 200,
               "isVisibleFilters": true,
               "isVisible": false,
               "enableClientSideSearch": true,

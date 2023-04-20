@@ -97,7 +97,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681960849898,
-              "originalBottomRow": 90,
+              "originalBottomRow": 68,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -256,7 +256,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 61,
+              "originalTopRow": 39,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -279,7 +279,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 13.234375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 18,
+              "leftColumn": 25,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -296,7 +296,7 @@
               "text": "Top 5 Pitchers in the League by ERA",
               "key": "9vmxa6tmim",
               "isDeprecated": false,
-              "rightColumn": 43,
+              "rightColumn": 50,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "hvtihk5k9e",
@@ -309,10 +309,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 56,
+              "originalTopRow": 34,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 60,
+              "originalBottomRow": 38,
               "fontSize": "1.25rem",
               "minDynamicHeight": 4
             },
@@ -391,7 +391,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681960568806,
-              "originalBottomRow": 131,
+              "originalBottomRow": 109,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -584,7 +584,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 110,
+              "originalTopRow": 88,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -636,10 +636,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 105,
+              "originalTopRow": 83,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 109,
+              "originalBottomRow": 87,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -696,10 +696,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 97,
+              "originalTopRow": 75,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 104,
+              "originalBottomRow": 82,
               "iconAlign": "left",
               "defaultText": "",
               "minDynamicHeight": 4
@@ -723,7 +723,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 13.8125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 20,
+              "leftColumn": 25,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -740,7 +740,7 @@
               "text": "Search a Player's Injury History",
               "key": "5ct5gbj4ml",
               "isDeprecated": false,
-              "rightColumn": 45,
+              "rightColumn": 50,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "rhaeh9yvcd",
@@ -753,10 +753,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 92,
+              "originalTopRow": 70,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 96,
+              "originalBottomRow": 74,
               "fontSize": "1.25rem",
               "minDynamicHeight": 4
             },
@@ -779,7 +779,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 13.8125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 23,
+              "leftColumn": 26,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -796,7 +796,7 @@
               "text": "Advanced Stats",
               "key": "5ct5gbj4ml",
               "isDeprecated": false,
-              "rightColumn": 43,
+              "rightColumn": 46,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "p15at61r7p",
@@ -933,7 +933,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681961545142,
-              "originalBottomRow": 55,
+              "originalBottomRow": 32,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -1187,7 +1187,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 18,
+              "originalTopRow": 19,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },

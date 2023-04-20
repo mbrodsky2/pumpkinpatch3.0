@@ -748,7 +748,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 13.8125,
               "dynamicTriggerPathList": [],
-              "leftColumn": 24,
+              "leftColumn": 23,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -765,7 +765,7 @@
               "text": "Moonshot Labs Article Archive",
               "key": "dvvvwr68bc",
               "isDeprecated": false,
-              "rightColumn": 43,
+              "rightColumn": 42,
               "backgroundColor": "",
               "textAlign": "CENTER",
               "dynamicHeight": "AUTO_HEIGHT",
